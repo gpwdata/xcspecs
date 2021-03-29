@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
     s.source            = { :git => 'git@github.com:gpwdata/xcframeworktest.git' } 
     s.ios.deployment_target = '10.0'
     s.ios.vendored_frameworks = 'IdentitySDK.xcframework' # Your XCFramework
-    s.dependency 'VideoID', '~> 7.1.9' # Third Party Dependency
+    s.dependency 'VideoID', '7.1.9' # Third Party Dependency
 end 
