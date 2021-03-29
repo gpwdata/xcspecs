@@ -1,0 +1,23 @@
+{
+  "name": "IdentitySDKDemo",
+  "version": "0.0.1",
+  "authors": "Tmx",
+  "license": {
+    "type": "MIT",
+    "text": "MIT License"
+  },
+  "homepage": "https://www.google.com",
+  "summary": "IdentitySDKDemo",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "http": "https://storage.googleapis.com/texttools.appspot.com/IdentitySDK.xcframework.0.0.0.zip"
+  },
+  "vendored_frameworks": "IdentitySDK.xcframework",
+  "dependencies": {
+    "VideoID": [
+      "~> 7.1.9"
+    ]
+  }
+}
